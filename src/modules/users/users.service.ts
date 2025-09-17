@@ -62,7 +62,7 @@ export class UsersService {
 
     const mailOptions = {
       from: process.env.SERVER_EMAIL_USER,
-      to: 'gomezr6993@gmail.com',
+      to: to,
       subject,
       html,
     }
